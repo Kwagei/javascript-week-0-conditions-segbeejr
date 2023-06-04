@@ -20,6 +20,43 @@
 //  2. write a program that prints the first twelve prime factors of a number
 
     // Answer:
+    const number = 20;
+    let count = 0;
+
+    console.log("The first twelve prime factors of", number, "are:");
+
+    if (number % 2 === 0) {
+    console.log(2);
+    count++;
+    }
+    if (number % 3 === 0) {
+    console.log(3);
+    count++;
+    }
+    if (number % 5 === 0) {
+    console.log(5);
+    count++;
+    }
+    if (number % 7 === 0) {
+    console.log(7);
+    count++;
+    }
+    if (number % 11 === 0) {
+    console.log(11);
+    count++;
+    }
+    if (number % 13 === 0) {
+    console.log(13);
+    count++;
+    }
+    if (number % 17 === 0) {
+    console.log(17);
+    count++;
+    }
+    if (number % 19 === 0) {
+    console.log(19);
+    count++;
+    }
 
 
 
@@ -40,6 +77,13 @@
 //  4. write a program that prints the factorial to a number
 
     // Answer:
+    let num1 = 5;
+    let num2 = 4;
+    let num3 = 3;
+    let num4 = 2;
+    let num5 = 1;
+    let factorial = num1 * num2 * num3 * num4 * num5;
+    console.log("The factorial is", factorial);
 
 
 
